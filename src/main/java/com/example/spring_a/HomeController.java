@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.spring_a;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ public class HomeController {
     public Map<String, Object> hello(
         ) {
         Map<String, Object> data = new HashMap<>();
-        data.put("message", "Hello, from spring-a//hello!");
+        data.put("message", "Hello, from spring-a/hello!");
         return data; // automatically converted to JSON
         }
 
@@ -25,7 +25,7 @@ public class HomeController {
     public Map<String, Object> hey(
         ) {
         Map<String, Object> data = new HashMap<>();
-        data.put("message", "Hello, from spring-a//hey!");
+        data.put("message", "Hello, from spring-a/hey!");
         return data; // automatically converted to JSON
         }
 
