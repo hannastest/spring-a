@@ -12,13 +12,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
     
+
 	@GetMapping("/hello")
     public Map<String, Object> hello(
         ) {
         Map<String, Object> data = new HashMap<>();
         data.put("message", "Hello, from spring-a//hello!");
         return data; // automatically converted to JSON
-        }	@GetMapping("/hey")
+        }
+	@GetMapping("/hey")
     public Map<String, Object> hey(
         ) {
         Map<String, Object> data = new HashMap<>();
